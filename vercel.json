@@ -1,0 +1,10 @@
+{
+  "rewrites": [
+    { "source": "/telegram", "destination": "/api/telegram" },
+    { "source": "/session", "destination": "/api/session" },
+    { "source": "/pair", "destination": "/api/pair" },
+    { "source": "/admin-login", "destination": "/api/admin-login" },
+    { "source": "/commands", "destination": "/api/commands" },
+    { "source": "/", "destination": "/api/index" }
+  ]
+}
